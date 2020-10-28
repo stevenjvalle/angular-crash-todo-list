@@ -117,8 +117,16 @@
               "devServerTarget": "angular-crash-todolist:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
-    }},
-  "defaultProject": "angular-crash-todolist"
+    }
+  },
+  "defaultProject": "angular-crash-todolist",
+  "cli": {
+    "analytics": "ba072b1b-2f69-41c6-9f5a-8e28549b5d21"
+  }
 }
